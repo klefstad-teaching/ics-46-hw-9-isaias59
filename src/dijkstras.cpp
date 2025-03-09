@@ -61,11 +61,11 @@ void print_path(const vector<int>& path, int total) {
     cout << "Path: ";
     for (size_t i = 0; i < path.size(); ++i) {
         cout << path[i];
-        if (i != path.size() - 1) cout << " -> ";
+        if (i != path.size() - 1) cout << " ";
     }
 
     if (total != -1) {
-        cout << "Total cost: " << total << '\n'; 
+        cout << "\nTotal cost: " << total << '\n'; 
     }
     else {
         cout << "\nTotal cost: No path found."; 

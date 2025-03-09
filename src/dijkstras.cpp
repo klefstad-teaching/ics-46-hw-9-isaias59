@@ -65,7 +65,7 @@ void print_path(const vector<int>& path, int total) {
     }
 
     if (total != -1) {
-        cout << "\nTotal cost: " << total << '\n'; 
+        cout << "\nTotal cost is" << total << '\n'; 
     }
     else {
         cout << "\nTotal cost: No path found."; 
